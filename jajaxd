@@ -289,4 +289,13 @@ game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
 	end
 end)
 
+Tab:AddLabel("join my discord : https://discord.gg/5VKSJN8k")
+
+Tab:AddButton({
+	Name = "Copy Discord link",
+	Callback = function()
+      		wait(0.1)
+			setclipboard("https://discord.gg/5VKSJN8k")
+  	end    
+})
 
